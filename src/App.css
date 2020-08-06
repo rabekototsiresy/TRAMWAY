@@ -1,0 +1,44 @@
+body,html{
+  font-family:  sans-serif
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.item{
+  width: 35%;
+  border: 2px solid black;
+  /* border-radius: 10px; */
+  padding: 20px;
+  margin: 10px;
+}
+#demiV{
+  margin: 10px 0;
+}
+.depart{
+  width: 100%;
+  text-align: center;
+}
+.sous-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+input{
+  width: 100%;
+  height: 50px;
+}
+.hour{
+  font-size: 30px;
+  margin: 20px 0;
+}
+.total{
+  border: 2px dashed black ;
+  
+}
+.reset{
+  float: right;
+}
